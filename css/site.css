@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+/*   Configuração Geral do Corpo da Página   */
+
+body{
+	margin: 0 auto;
+	font-family: "Century Gothic", sans-serif;
+}
+
+
+/******************************************
+      Configuração do Cabeçalho
+******************************************/
+header{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	height: 170px;
+	background-color:hsl(286, 79%, 21%);
+}      
+header img{
+	float: left;
+	height: 150px;
+	margin: 10px 0;
+}
+header h1{
+	float: left;
+	margin: 50px 0 0 30px;
+	font-size: 60px;
+	color:hsl(0, 0%, 100%);
+}
+
+
+/******************************************
+     Configuração do Área de Conteúdo
+******************************************/
+main
+{
+	display: flex;
+}
+section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	clear: both;
+	min-height: 552px;
+	width: 100%;
+	margin-top: 0px;
+	background-color: hsl(0, 0%, 100%);
+}
+section p{
+	clear: both;
+	text-align: center;
+	color: hsl(286, 79%, 21%);
+	margin: 10px;
+}
+h2{
+	text-align: center;
+	margin-top: 10px;
+	font-size: 50px;
+	color: hsl(286, 79%, 21%);
+}
+section #fotoTime img{
+	border: 8px solid hsl(286, 79%, 21%);
+	height: 472px;
+}
+
+
+/******************************************
+         Configuração do Menu
+******************************************/
+.layoutMenu{
+	width: 300px;
+	margin: 0px;
+	padding: 10px;
+}
+.menu .opcao{
+	float: left;
+	text-align: center;
+	margin: 0px auto;
+	padding: 10px;
+	color: #4c0b5f;
+	font-weight: bold;
+	font-size: 20px;
+}
+.menu .opcao:hover{
+	background-color:#4c0b5f;
+	color: white;
+}
+
+
+/******************************************
+        Configuração do Rodapé
+******************************************/
+footer img{
+	clear: both;
+	float: center;
+	height: 50px;
+	margin: 10px 50px;
+}
+footer{
+	background-color: #4c0b5f;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px;
+}
+
+
+/******************************************
+       Configuração do Formulário
+******************************************/
+.formulario{
+	width: 300px;
+	margin: 0px auto;
+	font-weight: bold;
+	margin-bottom: 10px;
+	color: #4c0b5f;
+}
+.formulario input, .formulario select{
+	margin: 5px auto;
+	width: 100%;
+	padding: 5px 0;
+}
+.formulario button{
+	width: 30%;
+	margin: 0 10%;
+	background-color: #4c0b5f;
+	font-weight: bold;
+	font-size: 16px;
+	color: white;
+}
+.radioBut{
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 10px;
+}
+.tipoContr input{
+	width: 13px;
+}
+
+.checkBoxTermos{
+	display: flex;
+	justify-content: left;
+	margin-bottom: 10px;
+	align-items: center;
+}
+
+.checkBoxTermos input{
+	width: 13px;
+	margin: 0 10px 0 0;
+}
+
+/******************************************
+     Configuração da Tabela Jogadores
+******************************************/
+.tabelaJogadores{
+	margin: 10px auto;
+	text-align: center;
+}
+.tabelaJogadores img{
+	float: center;
+	height: 300px;
+	margin: 40px 50px 0;
+	border: 4px solid #4c0b5f;
+}
+.tabelaJogadores td, tr{
+	border: transparent;
+}
+
+/******************************************
+         Configuração de Titulos
+******************************************/
+.tabelaTitulos{
+	margin: 10px auto;
+	text-align: center;
+}
+.tabelaTitulos img{
+	border: 8px solid #4c0b5f;
+	height: 350px;
+	margin: 10px 50px 0px;
+}
+.tabelaTitulos td, tr{
+	border: transparent;
+}
+.tabelaTitulos th{
+	border: transparent;
+}
+
+
+/******************************************
+      Configuração da Tabela Jogos
+******************************************/
+.tabelaJogos{
+	margin: 10px auto;
+	text-align: center;
+}
+.tituloTabela{
+	font-size: 30px;
+	font-weight: bold;
+	color: #4c0b5f;
+	padding: 5px;
+}
+.tabelaJogos tr, td, th{
+	border: 1px solid #4c0b5f;
+	padding: 5px;
+}
+tr, td{
+	font-size: 18px;
+	color: #4c0b5f;
+}
+
+
+/******************************************
+        Configuração do Contato
+******************************************/
+.contato{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+}
+.redesSociais{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+.contato img{
+	height: 50px;
+	margin: 10px;
+}
+.link {
+	font-size: 18px;
+}

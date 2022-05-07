@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Site de Fã Clube do Ultravôlei Joinville">
+	<meta name="keywords" content="fã, clube, vôlei, ultravôlei, Joinville">
+	<meta name="author" content="Diogo Sgrott">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Seja um Jogador do Ultravôlei Joinville</title>
+	<link rel="stylesheet" type="text/css" href="../../css/site.css">
+	<link rel="shortcut icon" href="../../imagens/logoUltravolei.png" type="image/x-icon">
+	<script src="../../js/site.js"></script>
+</head>
+<body>
+	<header>
+		<a href="../../index.html"><img src="../../imagens/logoUltravolei.png" alt="Logo Ultravôlei"></a>
+		<h1>Ultravôlei Joinville</h1>
+	</header>
+	<main class="main">
+		<nav class="layoutMenu">
+			<nav class="menu">
+				<a href="../../index.html"><div class="opcao">Página Inicial</div></a>
+				<a href="historia.html"><div class="opcao">História do time</div></a>
+				<a href="jogadores.html"><div class="opcao">Jogadores</div></a>
+				<a href="jogos.html"><div class="opcao">Próximos Jogos</div></a>
+				<a href="patrocinador.html"><div class="opcao">Seja um Patrocinador</div></a>
+				<a href="sejaJogador.html"><div class="opcao">Seja um Jogador</div></a>
+				<a href="contato.html"><div class="opcao">Contato</div></a>
+				
+			</nav>
+		</nav>
+		<section>
+			<h2>Seja um Jogador</h2>
+			<p>Há a cobrança de uma mensalidade de R$ 60,00. Os treinos ocorrem nos seguintes horários:</p>
+			<p>Segundas-feiras das 20h às 22h na Escola Estadual Presidente Médice</p>
+			<p>Quintas-feiras das 20h às 22h no CT Ivo Varella</p>
+			<form name="sejaPatrocinador" method="post" action="#" onsubmit="return validaSejaJogador()">
+				<fieldset class="formulario">
+					<legend>Dados para cadastro</legend>
+					<label for="nome">Nome: </label>
+					<input type="text" name="txtnome" id="nome" placeholder="José da Silva">
+					<label for="cpf">CPF: </label>
+					<input type="text" name="txtcpf" id="cpf" placeholder="000.000.000-00">
+					<label for="fone">Telefone: </label>
+					<input type="text" name="txtfone" id="fone" placeholder="00 00000-0000 ou 00 0000-0000">
+					<label for="email">E-mail: </label>
+					<input type="email" name="txtemail" id="email" placeholder="nome.nome@nome.com">
+					<div class="checkBoxTermos">
+						<input type="checkbox" id="aceitaTermos" name="aceitaTermos" value="aceita" unchecked>
+						<label for="aceita">Aceita os termos de treino</label>
+					</div>		
+					<button type="reset">Limpar</button><button type="submit">Enviar</button>
+				</fieldset>
+			</form>
+			<p>Para se tornar um atleta do Ultravôlei, você passará por dois treinos testes de forma gratuita e avaliação da nossa técnica.</p>
+		</section>
+	</main>
+	<footer>
+		<img src="../../imagens/Alpha.png" alt="Logo Alpha">
+		<img src="../../imagens/Centreville.png" alt="Logo Centreville">
+		<img src="../../imagens/PardalLanches.png" alt="Logo Pardal Lanches">
+		<img src="../../imagens/petShop.png" alt="Logo Pet Shop">
+		<img src="../../imagens/Souza.png" alt="Logo Souza Carnes">
+		<br>Copyright &copy; Diogo Sgrott 2022
+	</footer>
+</body>
+</html>
